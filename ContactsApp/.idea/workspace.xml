@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5a26f800-1123-4339-8640-ba08f48c2ec4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jQZn8e4oXnTmmOxwvIavAqtcAB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="C:/Projekt/FirstApp" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ContactsApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidationLab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ValidationLab" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ValidationLab" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a26f800-1123-4339-8640-ba08f48c2ec4" name="Default Changelist" comment="" />
+      <created>1603738439959</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603738439959</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="345" y="146" key="#Project_Structure" timestamp="1603738485735">
+      <screen x="0" y="0" width="1504" height="966" />
+    </state>
+    <state x="345" y="146" key="#Project_Structure/0.0.1504.966@0.0.1504.966" timestamp="1603738485735" />
+    <state x="480" y="137" key="#ValidationLab" timestamp="1603802901183">
+      <screen x="0" y="0" width="1504" height="966" />
+    </state>
+    <state x="480" y="137" key="#ValidationLab/0.0.1504.966@0.0.1504.966" timestamp="1603802901183" />
+    <state x="558" y="177" key="#com.intellij.ide.util.MemberChooser" timestamp="1603738934284">
+      <screen x="0" y="0" width="1504" height="966" />
+    </state>
+    <state x="558" y="177" key="#com.intellij.ide.util.MemberChooser/0.0.1504.966@0.0.1504.966" timestamp="1603738934284" />
+    <state x="533" y="242" key="FileChooserDialogImpl" timestamp="1603803153795">
+      <screen x="0" y="0" width="1504" height="966" />
+    </state>
+    <state x="533" y="242" key="FileChooserDialogImpl/0.0.1504.966@0.0.1504.966" timestamp="1603803153795" />
+    <state width="1461" height="257" key="GridCell.Tab.0.bottom" timestamp="1603806387225">
+      <screen x="0" y="0" width="1504" height="966" />
+    </state>
+    <state width="1461" height="257" key="GridCell.Tab.0.bottom/0.0.1504.966@0.0.1504.966" timestamp="1603806387225" />
+    <state width="1461" height="257" key="GridCell.Tab.0.center" timestamp="1603806387225">
+      <screen x="0" y="0" width="1504" height="966" />
+    </state>
+    <state width="1461" height="257" key="GridCell.Tab.0.center/0.0.1504.966@0.0.1504.966" timestamp="1603806387225" />
+    <state width="1461" height="257" key="GridCell.Tab.0.left" timestamp="1603806387224">
+      <screen x="0" y="0" width="1504" height="966" />
+    </state>
+    <state width="1461" height="257" key="GridCell.Tab.0.left/0.0.1504.966@0.0.1504.966" timestamp="1603806387224" />
+    <state width="1461" height="257" key="GridCell.Tab.0.right" timestamp="1603806387225">
+      <screen x="0" y="0" width="1504" height="966" />
+    </state>
+    <state width="1461" height="257" key="GridCell.Tab.0.right/0.0.1504.966@0.0.1504.966" timestamp="1603806387225" />
+    <state x="461" y="312" key="com.intellij.ide.util.TipDialog" timestamp="1603803316419">
+      <screen x="0" y="0" width="1504" height="966" />
+    </state>
+    <state x="461" y="312" key="com.intellij.ide.util.TipDialog/0.0.1504.966@0.0.1504.966" timestamp="1603803316419" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
