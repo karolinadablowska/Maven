@@ -1,9 +1,10 @@
+import lombok.Getter;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
+@Getter
 public class OfficeOfProperty {
-
-
     private int iterator = 0;
     private Property[] properties;
 
@@ -11,12 +12,11 @@ public class OfficeOfProperty {
         this.properties = new Property[propertySize];
     }
 
-    public OfficeOfProperty() {
-
+    public void addProperty(Property property) {
+        properties[iterator++] = property;
     }
 
-    public void addProperty(Property property) {
-
+    public Property insertProperty() {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter name: ");
@@ -28,21 +28,21 @@ public class OfficeOfProperty {
         System.out.println("Enter price:");
         double price = sc.nextDouble();
 
-
-         }
+        return new Property(name, area, price);
+    }
 
     public int howManyProperties() {
         return iterator;
     }
 
-    public Property findProperty () {
+    public Property findProperty() {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter name: ");
         String name = sc.next();
 
-        for(int i = 0; i < properties.length && properties[i] != null; i++){
-            if(properties[i].getName().equals(name)){
+        for (int i = 0; i < properties.length && properties[i] != null; i++) {
+            if (properties[i].getName().equals(name)) {
                 return properties[i];
             }
         }
@@ -52,22 +52,22 @@ public class OfficeOfProperty {
     public void changePriceOfProperty(double presentPrice, double newPrice) {
         Property property = findPropertyPrice(presentPrice);
         property.setPrice(newPrice);
-          }
+    }
 
     public Property findPropertyPrice(double price) {
-        for(int i = 0; i < properties.length && properties[i] != null; i++){
-            if(properties[i].getPrice() == price) {
+        for (int i = 0; i < properties.length && properties[i] != null; i++) {
+            if (properties[i].getPrice() == price) {
                 return properties[i];
             }
         }
         return null;
     }
 
-    public double calculateOfReduce(String name, double reduce){
+    public double calculateOfReduce(String name, double reduce) {
         double calculation = 0;
-        for(int i = 0; i < properties.length && properties[i] != null; i++){
+        for (int i = 0; i < properties.length && properties[i] != null; i++) {
             calculation = (properties[i].getPrice() * reduce);
-               }
+        }
         return calculation;
     }
 
