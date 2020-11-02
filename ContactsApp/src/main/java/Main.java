@@ -5,6 +5,7 @@ public class Main {
     private static final int STOP_PROGRAM = 0;
     private static final int ADD = 1;
     private static final int DISPLAY = 2;
+    private static final int REMOVE = 3;
 
     public static void main(String[] args) {
         ContactBook contactBook = new ContactBook();
@@ -16,6 +17,7 @@ public class Main {
             System.out.println("0 - stop");
             System.out.println("1 - add contact");
             System.out.println("2 - display contacts");
+            System.out.println("3 - remove contacts");
             option = sc.nextInt();
 
             switch (option) {
@@ -24,6 +26,10 @@ public class Main {
                     break;
                 case DISPLAY:
                     System.out.println(contactBook.getContacts());
+                    break;
+                case REMOVE:
+                    contactBook.remove();
+                    break;
             }
         } while (option != STOP_PROGRAM);
     }
