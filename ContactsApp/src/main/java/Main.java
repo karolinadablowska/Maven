@@ -1,3 +1,4 @@
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -21,6 +22,8 @@ public class Main {
                 case ADD:
                     contactBook.add();
                     break;
+                case DISPLAY:
+                    System.out.println(contactBook.getContacts());
             }
         } while (option != STOP_PROGRAM);
     }

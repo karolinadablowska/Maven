@@ -1,6 +1,9 @@
+import lombok.Getter;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
+@Getter
 public class ContactBook {
     private ArrayList<Contact> contacts = new ArrayList<>();
 
