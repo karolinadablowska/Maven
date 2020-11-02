@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        OfficeOfProperty officeOfProperty = new OfficeOfProperty();
+        OfficeOfProperty officeOfProperty = new OfficeOfProperty(5);
         Property property = new Property("Willa", 500, 500);
 
         Scanner sc = new Scanner(System.in);
