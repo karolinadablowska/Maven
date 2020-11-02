@@ -1,52 +1,29 @@
-import java.util.Scanner;
+import lombok.AllArgsConstructor;
+import lombok.ToString;
 
+import java.util.Objects;
+
+
+@AllArgsConstructor
+@ToString
 public class Contact {
-
     private String name;
     private String surname;
     private String phoneNumber;
     private String email;
 
-    public Contact(String name, String surname, String phoneNumber, String email) {
-        this.name = name;
-        this.surname = surname;
-        this.phoneNumber = phoneNumber;
-        this.email = email;
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Contact contact = (Contact) o;
+        return Objects.equals(name, contact.name) &&
+                Objects.equals(surname, contact.surname);
     }
 
-    public Contact() {
-    }
-
-    public void addContact() throws MyException {
-
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("Enter name: ");
-        String name = sc.next();
-
-        System.out.println("Enter surname: ");
-        String surname = sc.next();
-
-        System.out.println("Enter phoneNumber:");
-        String phoneNumber = sc.next();
-
-        if(ValidationLab.validatePhoneNumber(phoneNumber) == false) {
-            throw new MyException("Wrong phone number!");
-        }
-
-        System.out.println("Enter email:");
-        String email = sc.next();
-
-        if(ValidationLab.validateEmail(phoneNumber) == true) {
-            throw new MyException("Wrong email!");
-        }
-
-        Contact contact = new Contact (name, surname, phoneNumber, email);
-
-    }
-
-    public String toString() {
-        return name + ", " + surname + ", " + phoneNumber + ", " + email;
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, surname);
     }
 }
 
