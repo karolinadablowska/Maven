@@ -17,7 +17,7 @@ public class ValidationLab {
 
 
     static boolean validateEmail(String mail) {
-        Pattern pattern = Pattern.compile(".+@.+\\.com.");
+        Pattern pattern = Pattern.compile("^(.+)@(.+)$");
         if (pattern.matcher(mail).matches()) {
             return true;
         }
