@@ -57,4 +57,11 @@ public class ContactBook {
         } while(!validEmail);
         return email;
     }
+
+    public void remove() {
+        String name = insertName();
+        String surname = insertSurnName();
+        Contact contact = new Contact(name, surname, null, null);
+        contacts.remove(contact);
+    }
 }
